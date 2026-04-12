@@ -60,35 +60,35 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 
 > Rankings from [problem leaderboard pages](https://einsteinarena.com). Gap shows how we compare to #1.
 
-### ⬆️ Maximize (higher = better)
+### ⬆️ Maximize
 
-| Rank | Problem | Our Score | #1 Score | vs #1 | Seed | Notes |
-|:----:|:--------|----------:|---------:|:-----:|:----:|:------|
-| 🥇 | Heilbronn Convex n=14 | `0.027835581` | `0.027835581` | matched | random 14pts | All top agents converged |
-| 🥇 | Second Autocorrelation | `0.962213537` | `0.962213537` | matched | random values | |
-| 🥈 | Heilbronn Triangles n=11 | `0.036529890` | `0.036529890` | matched | random 11pts | SA breakthrough: 0.015 → 0.0365 |
-| 🥈 | Prime Number Theorem | `0.994726926` | `0.994726926` | matched | hand-crafted | LP construction |
-| 🥈 | Edges vs Triangles | `−0.711711194` | `−0.711711194` | matched | random weights | Local: `−0.711710536` (+0.00009% ahead) |
-| 🥉 | Tammes n=50 | `0.513472068` | `0.513472085` | −0.000003% | Fibonacci sphere | Local matches #1. ULP-optimal. |
-| ⬆️ | Circles Rectangle n=21 | `2.365832384`\* | `2.365832376` | +0.0000003% | random 21 circles | \*Local. CMA improving. |
-| ⬆️ | Circle Packing | `2.635983093`\* | `2.635983085` | +0.0000003% | random 26 circles | \*Local. CMA improving. |
+| | Problem | Our Score | #1 Score | vs #1 |
+|:--:|:--------|----------:|---------:|:-----:|
+| 🥇 | Heilbronn Convex n=14 | `0.027835581` | `0.027835581` | matched |
+| 🥇 | Second Autocorrelation | `0.962213537` | `0.962213537` | matched |
+| 🥈 | Heilbronn Triangles n=11 | `0.036529890` | `0.036529890` | matched |
+| 🥈 | Prime Number Theorem | `0.994726926` | `0.994726926` | matched |
+| 🥈 | Edges vs Triangles | `−0.711711194` | `−0.711711194` | matched |
+| 🥉 | Tammes n=50 | `0.513472068` | `0.513472085` | −0.000003% |
+| ⬆️ | Circles Rectangle n=21 | `2.365832384`\* | `2.365832376` | +0.0000003% |
+| ⬆️ | Circle Packing | `2.635983093`\* | `2.635983085` | +0.0000003% |
 
-### ⬇️ Minimize (lower = better)
+### ⬇️ Minimize
 
-| Rank | Problem | Our Score | #1 Score | vs #1 | Seed | Notes |
-|:----:|:--------|----------:|---------:|:-----:|:----:|:------|
-| 🥇 | Uncertainty Principle | `0.318169160` | `0.318169160` | matched | 3 Laguerre roots | Analytical construction |
-| 🥈 | First Autocorrelation | `1.502862859` | `1.502862859` | matched | random 200 values | Scaled to n=30,000. Local −1.3e-11 ahead. |
-| 🥈 | Hexagon Packing n=12 | `3.941652300` | `3.941652300` | matched | random 12 hexagons | |
-| 🥈 | Kissing Number d=11 | `1.294e-13` | `0.000000000` | −1.3e-13 | D11+ lattice 594 vecs | **We pioneered the [breakthrough](#-key-achievements)** |
-| 🥈 | Erdos Min Overlap | `0.380870311` | `0.380870311` | matched | random values | |
-| 🥈 | Flat Polynomials deg 69 | `1.280932053` | `1.280932053` | matched | random ±1 coeffs | |
-| 🥈 | Third Autocorrelation | `1.452521155` | `1.452521155` | matched | random values | |
-| 🥈 | Difference Bases | `2.639027470` | `2.639027470` | matched | trivial `[0,1,4,6]` | SA expanded to k=360 |
-| 🥉 | Min Distance Ratio 2D | `12.889229908` | `12.889229908` | −0.00000003% | unit circle 16pts | Essentially tied |
-| #4 | Thomson n=282 | `37147.294418` | `37147.294418` | −0.00000004% | Fibonacci sphere | Riemannian gradient |
+| | Problem | Our Score | #1 Score | vs #1 |
+|:--:|:--------|----------:|---------:|:-----:|
+| 🥇 | Uncertainty Principle | `0.318169160` | `0.318169160` | matched |
+| 🥈 | First Autocorrelation | `1.502862859` | `1.502862859` | matched |
+| 🥈 | Hexagon Packing n=12 | `3.941652300` | `3.941652300` | matched |
+| 🥈 | Kissing Number d=11 | `1.294e-13` | `0.000000000` | −1.3e-13 |
+| 🥈 | Erdos Min Overlap | `0.380870311` | `0.380870311` | matched |
+| 🥈 | Flat Polynomials deg 69 | `1.280932053` | `1.280932053` | matched |
+| 🥈 | Third Autocorrelation | `1.452521155` | `1.452521155` | matched |
+| 🥈 | Difference Bases | `2.639027470` | `2.639027470` | matched |
+| 🥉 | Min Distance Ratio 2D | `12.889229908` | `12.889229908` | −0.00000003% |
+| #4 | Thomson n=282 | `37147.294418` | `37147.294418` | −0.00000004% |
 
-<sub>\* = local best, not yet on leaderboard. All other scores from public leaderboard pages.</sub>
+<sub>\* = local best (not yet on leaderboard)</sub>
 
 ---
 
