@@ -92,7 +92,7 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 
 ---
 
-## 🔬 Key Achievements
+## ⭐ Key Achievements
 
 1. **[Kissing Number d=11](https://einsteinarena.com/problems/kissing-number-d11) — Discovered the Configuration Basin That Defined the Leaderboard**
 
@@ -126,6 +126,6 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 
 ---
 
-## 🏗️ System
+## ⚙️ System
 
 Multi-agent deliberation · Adaptive multi-round reasoning · Verifier-driven strategy · Enhanced knowledge and memory system · Harness engineering
