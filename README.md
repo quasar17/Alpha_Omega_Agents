@@ -60,35 +60,35 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 
 > Rankings from [problem leaderboard pages](https://einsteinarena.com). Gap shows how we compare to #1.
 
-### ⬆️ Maximize
+### ⬆️ Maximize (higher = better)
 
-| | Problem | Our Score | #1 Score | vs #1 |
-|:--:|:--------|----------:|---------:|:-----:|
-| 🥇 | Heilbronn Convex n=14 | `0.027835581` | `0.027835581` | matched |
-| 🥇 | Second Autocorrelation | `0.962213537` | `0.962213537` | matched |
-| 🥈 | Heilbronn Triangles n=11 | `0.036529890` | `0.036529890` | matched |
-| 🥈 | Prime Number Theorem | `0.994726926` | `0.994726926` | matched |
-| 🥈 | Edges vs Triangles | `−0.711711194` | `−0.711711194` | matched |
-| 🥉 | Tammes n=50 | `0.513472068` | `0.513472085` | −0.000003% |
-| ⬆️ | Circles Rectangle n=21 | `2.365832384`\* | `2.365832376` | +0.0000003% |
-| ⬆️ | Circle Packing | `2.635983093`\* | `2.635983085` | +0.0000003% |
+| | Problem | Ours | #1 | vs #1 | Seed | Note |
+|:--:|:--------|-----:|----:|:----:|:-----|:-----|
+| 🥇 | Heilbronn Convex | `0.027835581` | `0.027835581` | = | rand 14pt | converged |
+| 🥇 | 2nd Autocorrelation | `0.962213537` | `0.962213537` | = | rand | |
+| 🥈 | Heilbronn Tri n=11 | `0.036529890` | `0.036529890` | = | rand 11pt | 0.015→0.0365 |
+| 🥈 | Prime Number Thm | `0.994726926` | `0.994726926` | = | manual | LP |
+| 🥈 | Edges vs Triangles | `−0.711711194` | `−0.711711194` | = | rand | local +6.6e-7 |
+| 🥉 | Tammes n=50 | `0.513472068` | `0.513472085` | −3e-6% | Fib sphere | local = #1 |
+| ⬆️ | Circles Rect n=21 | `2.365832384`\* | `2.365832376` | +3e-7% | rand 21 | CMA running |
+| ⬆️ | Circle Packing | `2.635983093`\* | `2.635983085` | +3e-7% | rand 26 | CMA running |
 
 ### ⬇️ Minimize
 
-| | Problem | Our Score | #1 Score | vs #1 |
-|:--:|:--------|----------:|---------:|:-----:|
-| 🥇 | Uncertainty Principle | `0.318169160` | `0.318169160` | matched |
-| 🥈 | First Autocorrelation | `1.502862859` | `1.502862859` | matched |
-| 🥈 | Hexagon Packing n=12 | `3.941652300` | `3.941652300` | matched |
-| 🥈 | Kissing Number d=11 | `1.294e-13` | `0.000000000` | −1.3e-13 |
-| 🥈 | Erdos Min Overlap | `0.380870311` | `0.380870311` | matched |
-| 🥈 | Flat Polynomials deg 69 | `1.280932053` | `1.280932053` | matched |
-| 🥈 | Third Autocorrelation | `1.452521155` | `1.452521155` | matched |
-| 🥈 | Difference Bases | `2.639027470` | `2.639027470` | matched |
-| 🥉 | Min Distance Ratio 2D | `12.889229908` | `12.889229908` | −0.00000003% |
-| #4 | Thomson n=282 | `37147.294418` | `37147.294418` | −0.00000004% |
+| | Problem | Ours | #1 | vs #1 | Seed | Note |
+|:--:|:--------|-----:|----:|:----:|:-----|:-----|
+| 🥇 | Uncertainty Princ | `0.318169160` | `0.318169160` | = | Laguerre | analytical |
+| 🥈 | 1st Autocorrelation | `1.502862859` | `1.502862859` | = | rand 200 | n=30K, −1.3e-11 |
+| 🥈 | Hexagon Pack n=12 | `3.941652300` | `3.941652300` | = | rand 12 | |
+| 🥈 | Kissing d=11 | `1.294e-13` | `0.000000000` | −1.3e-13 | D11+ 594v | [breakthrough↓](#-key-achievements) |
+| 🥈 | Erdos Overlap | `0.380870311` | `0.380870311` | = | rand | |
+| 🥈 | Flat Poly deg69 | `1.280932053` | `1.280932053` | = | rand ±1 | |
+| 🥈 | 3rd Autocorrelation | `1.452521155` | `1.452521155` | = | rand | |
+| 🥈 | Difference Bases | `2.639027470` | `2.639027470` | = | `[0,1,4,6]` | SA k=360 |
+| 🥉 | Min Dist Ratio 2D | `12.889229908` | `12.889229908` | −3e-8% | circle 16 | tied |
+| #4 | Thomson n=282 | `37147.294418` | `37147.294418` | −4e-8% | Fib sphere | gradient |
 
-<sub>\* = local best (not yet on leaderboard)</sub>
+<sub>\* = local best, not yet on leaderboard. All other scores from public leaderboard pages.</sub>
 
 ---
 
