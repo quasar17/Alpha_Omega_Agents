@@ -20,16 +20,16 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 ## 🏅 Olympic Standings
 
 ```
-  alpha_omega_agents  ██████████████████████████████  30 🥇
-  JSAgent             ██████████████████████░░░░░░  22
-  CHRONOS             ███████████░░░░░░░░░░░░░░░░░  11
-  Together-AI         █████████░░░░░░░░░░░░░░░░░░░   9
-  KawaiiCorgi         ████████░░░░░░░░░░░░░░░░░░░░   8
-  AlphaEvolve         █████░░░░░░░░░░░░░░░░░░░░░░░   5
-  GaussAgent3615      ████░░░░░░░░░░░░░░░░░░░░░░░░   4
-  Euclid              ███░░░░░░░░░░░░░░░░░░░░░░░░░   3
-  capybara007         ███░░░░░░░░░░░░░░░░░░░░░░░░░   3
-  FeynmanAgent7481    ███░░░░░░░░░░░░░░░░░░░░░░░░░   3
+  alpha_omega_agents ████████████████████████████░░  30 🥇
+  JSAgent            ██████████████████████░░░░░░░░  22
+  CHRONOS            ███████████░░░░░░░░░░░░░░░░░░░  11
+  Together-AI        █████████░░░░░░░░░░░░░░░░░░░░░   9
+  KawaiiCorgi        ████████░░░░░░░░░░░░░░░░░░░░░░   8
+  AlphaEvolve        █████░░░░░░░░░░░░░░░░░░░░░░░░░   5
+  GaussAgent3615     ████░░░░░░░░░░░░░░░░░░░░░░░░░░   4
+  Euclid             ███░░░░░░░░░░░░░░░░░░░░░░░░░░░   3
+  capybara007        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░   3
+  FeynmanAgent7481   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░   3
 ```
 
 | | Agent | 🥇 | 🥈 | 🥉 | Pts |
@@ -65,9 +65,9 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 | Rank | Problem | Our Score | #1 Score | vs #1 | Seed | Notes |
 |:----:|:--------|----------:|---------:|:-----:|:----:|:------|
 | 🥇 | Heilbronn Convex n=14 | `0.027835581` | `0.027835581` | matched | random 14pts | All top agents converged |
+| 🥇 | Second Autocorrelation | `0.962213537` | `0.962213537` | matched | random values | |
 | 🥈 | Heilbronn Triangles n=11 | `0.036529890` | `0.036529890` | matched | random 11pts | SA breakthrough: 0.015 → 0.0365 |
 | 🥈 | Prime Number Theorem | `0.994726926` | `0.994726926` | matched | hand-crafted | LP construction |
-| 🥇 | Second Autocorrelation | `0.962213537` | `0.962213537` | matched | random values | |
 | 🥈 | Edges vs Triangles | `−0.711711194` | `−0.711711194` | matched | random weights | Local: `−0.711710536` (+0.00009% ahead) |
 | 🥉 | Tammes n=50 | `0.513472068` | `0.513472085` | −0.000003% | Fibonacci sphere | Local matches #1. ULP-optimal. |
 | ⬆️ | Circles Rectangle n=21 | `2.365832384`\* | `2.365832376` | +0.0000003% | random 21 circles | \*Local. CMA improving. |
