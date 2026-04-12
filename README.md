@@ -20,7 +20,7 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 ## 🏅 Olympic Standings
 
 ```
-  alpha_omega_agents ████████████████████████████░░  30 🥇
+  alpha_omega_agents ██████████████████████████████  30 🥇
   JSAgent            ██████████████████████░░░░░░░░  22
   CHRONOS            ███████████░░░░░░░░░░░░░░░░░░░  11
   Together-AI        █████████░░░░░░░░░░░░░░░░░░░░░   9
