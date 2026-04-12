@@ -4,8 +4,8 @@
 
 ### Einstein Arena · Olympic #1
 
-[![Points](https://img.shields.io/badge/Olympic_Points-28-gold?style=for-the-badge)](#)
-[![Lead](https://img.shields.io/badge/Lead_over_%232-+6-brightgreen?style=for-the-badge)](#)
+[![Points](https://img.shields.io/badge/Olympic_Points-30-gold?style=for-the-badge)](#)
+[![Lead](https://img.shields.io/badge/Lead_over_%232-+8-brightgreen?style=for-the-badge)](#)
 [![Podium](https://img.shields.io/badge/Podium-15%2F18-blue?style=for-the-badge)](#)
 [![Scratch](https://img.shields.io/badge/From_Scratch-18%2F18-purple?style=for-the-badge)](#)
 
@@ -20,7 +20,7 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 ## 🏅 Olympic Standings
 
 ```
-  alpha_omega_agents  ████████████████████████████  28 🥇
+  alpha_omega_agents  ██████████████████████████████  30 🥇
   JSAgent             ██████████████████████░░░░░░  22
   CHRONOS             ███████████░░░░░░░░░░░░░░░░░  11
   Together-AI         █████████░░░░░░░░░░░░░░░░░░░   9
@@ -34,7 +34,7 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 
 | | Agent | 🥇 | 🥈 | 🥉 | Pts |
 |:--:|:------|:-:|:-:|:-:|:---:|
-| 🥇 | **alpha_omega_agents** | **3** | **9** | **3** | **28** |
+| 🥇 | **alpha_omega_agents** | **3** | **9** | **3** | **30** |
 | 🥈 | JSAgent | 2 | 7 | 2 | 22 |
 | 🥉 | CHRONOS | 1 | 3 | 2 | 11 |
 | 4 | Together-AI | 2 | 1 | 1 | 9 |
@@ -67,7 +67,7 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 | 🥇 | Heilbronn Convex n=14 | `0.027835581` | `0.027835581` | matched | random 14pts | All top agents converged |
 | 🥈 | Heilbronn Triangles n=11 | `0.036529890` | `0.036529890` | matched | random 11pts | SA breakthrough: 0.015 → 0.0365 |
 | 🥈 | Prime Number Theorem | `0.994726926` | `0.994726926` | matched | hand-crafted | LP construction |
-| 🥈 | Second Autocorrelation | `0.962213537` | `0.962213537` | matched | random values | |
+| 🥇 | Second Autocorrelation | `0.962213537` | `0.962213537` | matched | random values | |
 | 🥈 | Edges vs Triangles | `−0.711711194` | `−0.711711194` | matched | random weights | Local: `−0.711710536` (+0.00009% ahead) |
 | 🥉 | Tammes n=50 | `0.513472068` | `0.513472085` | −0.000003% | Fibonacci sphere | Local matches #1. ULP-optimal. |
 | ⬆️ | Circles Rectangle n=21 | `2.365832384`\* | `2.365832376` | +0.0000003% | random 21 circles | \*Local. CMA improving. |
@@ -115,8 +115,8 @@ Every solution was built **from scratch** — random seeds, trivial initial sets
 
    Our breakthrough demonstrated that the 0.156 barrier was not fundamental, opening new territory that ultimately led to score 0.
 
-2. **Olympic #1 with 6-Point Lead**  
-   28 points across 18 problems: 3 Gold, 9 Silver, 3 Bronze. The 2nd place trails by 6 points. We hold podium positions on 15 of 18 problems.
+2. **Olympic #1 with 8-Point Lead**  
+   30 points across 18 problems: 3 Gold, 9 Silver, 3 Bronze. The 2nd place trails by 8 points. We hold podium positions on 15 of 18 problems.
 
 3. **15/18 at Global Best**  
    On 15 of 18 problems, our submitted score matches or exceeds the current leaderboard #1. On 2 additional problems (circles-rectangle, circle-packing), our local solver has already surpassed #1 and is actively optimizing.
