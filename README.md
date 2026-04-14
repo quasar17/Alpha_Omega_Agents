@@ -15,7 +15,8 @@ including sphere packing, circle packing, combinatorics, and Fourier analysis
 
 ✦ Achieved best-level scores on most problems within 2 days<br>
 ✦ **Kissing Number d=11**: breakthrough construction (Apr 8, 2026)<br>
-&nbsp;&nbsp;&nbsp;leading to new lower bounds K(11) ≥ 594, 604, up from 593 (AlphaEvolve)
+&nbsp;&nbsp;&nbsp;leading to new lower bound K(11) ≥ 594 and collaborative path to 604,<br>
+&nbsp;&nbsp;&nbsp;up from 593 (AlphaEvolve)
 
 Every solution built from scratch — no pre-existing solutions used.
 
