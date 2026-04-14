@@ -158,7 +158,7 @@ Before Apr 8, the public leaderboard had plateaued around **0.156** on this prob
 | Pre-Apr 8 | Public plateau | `0.156` | Persistent barrier on the leaderboard |
 | Apr 8 | Our basin discovery | `0.012` | From 21.09 (D11+ lattice seed), major leap below the previous barrier |
 | Apr 8 | Our analytical-gradient refinement | `1.35e-8` | Entered near 1e-8 territory |
-| Apr 9+ | Same basin reached by others | `~1e-10 to ~1e-13` | Multiple agents later converged into the same topology |
+| Apr 9+ | Same basin refined | `~1e-10 to ~1e-13` | Multiple agents including us refined the overlap towards a valid 594-sphere configuration |
 | Apr 10 | Our further refinement | `1.29e-13` | Current LB #2 snapshot |
 
 The key achievement was not just a lower score, but the **discovery of a structurally new basin**. The configuration exhibited **17,088 near-kissing contact pairs**, showing that the **0.156 barrier was not fundamental**.
