@@ -177,7 +177,7 @@ This reduced the overlap from **21.09 → 0.012 → 1.35e-8** (our Apr 8 work), 
    5 Gold, 9 Silver, 2 Bronze across 18 problems. 10 points ahead of the runner-up (as of April 13, 2026).
 
 ### Global Best on Most Problems in 2 Days
-   Started April 7, 2026. Our score matches or exceeds the best known on 15 of 18 problems. Most reached within the first 2 days.
+   Started April 7, 2026. Our score matches or exceeds the best known on 15 of 18 problems. Most reached within the first 2 days on a single Mac Studio.
 
 ### 100% From Scratch
    Every solution started from a random seed, trivial initial set, or analytical construction. No pre-existing solutions were used.
