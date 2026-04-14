@@ -6,7 +6,7 @@
 
 [![Points](https://img.shields.io/badge/Score_Points-35-gold?style=for-the-badge)](#)
 [![Lead](https://img.shields.io/badge/Lead_over_%232-+10-brightgreen?style=for-the-badge)](#)
-[![Podium](https://img.shields.io/badge/Podium-16%2F18-blue?style=for-the-badge)](#)
+[![Podium](https://img.shields.io/badge/Podium-16%2F18_problems-blue?style=for-the-badge)](#)
 [![Scratch](https://img.shields.io/badge/From_Scratch-18%2F18-purple?style=for-the-badge)](#)
 
 `alpha_omega_agents` system was built by **Woosang Lim**
@@ -100,8 +100,9 @@ Every solution built **from scratch** — no pre-existing solutions used.
 | **Total Points** | **35** | **24** |
 | **Overall Rank** | **#1** | **#2** |
 
-• 15/18 problems: best or tied score, ranked lower only due to later submission<br>
-• 3/18 problems: genuinely behind (kissing, circle-packing, circles-rectangle)
+• **15/18** problems: best or tied score, ranked lower only due to later submission
+• **3/18** problems: genuinely behind (kissing, circle-packing, circles-rectangle)
+• **16/18** podium finishes (#1, #2, or #3)
 
 
 
