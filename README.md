@@ -143,33 +143,36 @@ Every solution built **from scratch** — no pre-existing solutions used.
 
 ## ⭐ Key Achievements
 
-1. **[Kissing Number d=11](https://einsteinarena.com/problems/kissing-number-d11) — Breakthrough Construction for K(11) ≥ 594, 604**
+### Kissing Number d=11 — Apr 8 Breakthrough Basin
 
-   **Before our work**: Multiple agents were stuck at score **0.156** — a persistent barrier on this problem.
+Before Apr 8, the public leaderboard had plateaued around **0.156** on this problem. Our Apr 8 submissions opened a structurally new basin and pushed the score into a completely different regime.
 
-   **Trajectory**:
+| Date | Stage | Score | Detail |
+|:----:|------:|------:|:-------|
+| Pre-Apr 8 | Public plateau | `0.156` | Persistent barrier on the leaderboard |
+| Apr 8 | Our basin discovery | `0.012` | From 21.09 (D11+ lattice seed), major leap below the previous barrier |
+| Apr 8 | Our analytical-gradient refinement | `1.35e-8` | Entered sub-1e-7 territory |
+| Apr 9+ | Same basin reached by others | `~1e-10 to ~1e-13` | Multiple agents later converged into the same topology |
+| Apr 10 | Our further refinement | `1.29e-13` | Current LB #2 snapshot |
 
-   | Date | Stage | Score | Detail |
-   |:----:|:------|------:|:-------|
-   | Pre-Apr 8 | Previous leader | `0.156` | Barrier where multiple agents plateaued |
-   | Apr 8 | Our basin discovery | `0.012` | From 21.09 (D11+ lattice seed), 13× better than leader. Submitted. |
-   | Apr 8 | Our analytical gradient | `1.35e-8` | Broke into sub-1e-7 territory. Submitted. |
-   | Apr 9+ | Same basin — CHRONOS | `3.8e-10` | CHRONOS [independently analyzed our config](https://einsteinarena.com/problems/kissing-number-d11/threads/175) at this snapshot |
-   | Apr 9+ | Our ULP + Decimal | `2.15e-13` | Published [structural analysis](https://einsteinarena.com/problems/kissing-number-d11/threads/177). DarwinAgent, JSAgent, CHRONOS also reached ~1e-13. |
-   | Apr 10 | Our further refinement | `1.29e-13` | Current LB #2 |
-   | Apr 11+ | Collaborative refinement | `0` | Multiple agents achieved score=0 via LSQR + integer snapping + Z[√2] construction |
+The key achievement was not just a lower score, but the discovery of a **structurally new basin**. The configuration exhibited 17,088 near-kissing contact pairs, showing that the 0.156 barrier was not fundamental. As [Together AI later described](https://www.together.ai/blog/einsteinarena), this Apr 8 breakthrough construction was subsequently refined by multiple agents into the validated 604-sphere configuration.
 
-   **Breakthrough topology**: The gap from the previous barrier (0.156) to our best (1.29e-13): **12 orders of magnitude**. The configuration exhibits 17,088 near-kissing contact pairs (9.7% of all 176,121 pairs), with average contact degree 57.5 per vector.
+<details>
+<summary><strong>Methodology behind the Apr 8 breakthrough</strong></summary>
 
-   Our construction for 594 spheres became the foundation for the collaborative effort that ultimately achieved 594, 604 spheres — a historic new lower bound K(11) ≥ 594, 604, up from 593 (AlphaEvolve, Nov 2025). [Blog](https://www.together.ai/blog/einsteinarena)
+We started from a maximum independent-set seed derived from the D11+ lattice (weight-4 ±1 vectors in Z^11), converted it into a 594-vector initialization on S^10, and then applied a multi-stage L2→L1 cascade optimization. The optimization used L-BFGS with progressively sharpened softplus penalties and analytical gradients to move into a new low-overlap basin that single-loss optimization had not reached.
 
-2. **#1 Overall by Score with 10-Point Lead**
+This reduced the overlap from 21.09 to 0.012 and then to 1.35e-8, yielding a distinct 17,088-contact topology that was structurally different from the previous AlphaEvolve 593-vector basin. As [Together AI later described](https://www.together.ai/blog/einsteinarena), this Apr 8 breakthrough construction was subsequently refined by multiple agents into the validated 604-sphere configuration.
+
+</details>
+
+### #1 Overall by Score with 10-Point Lead
    35 points across 18 problems: 5 Gold, 9 Silver, 2 Bronze. 10 points ahead of #2. Podium on 16 of 18 problems.
 
-3. **15/18 at Global Best**
+### 15/18 at Global Best
    On 15 of 18 problems, our submitted score matches or exceeds the current best known score.
 
-4. **100% From Scratch**
+### 100% From Scratch
    Every solution started from a random seed, trivial initial set, or analytical construction. No pre-existing solutions used.
 
 ---
