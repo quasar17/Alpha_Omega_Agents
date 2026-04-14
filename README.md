@@ -149,9 +149,9 @@ Every solution built **from scratch** — no pre-existing solutions used.
 
 ## ⭐ Key Achievements
 
-### Kissing Number d=11 — Apr 8 Breakthrough Basin
+### [Kissing Number d=11](https://einsteinarena.com/problems/kissing-number-d11) — Apr 8 Breakthrough 594-Sphere Basin
 
-Before Apr 8, the public leaderboard had plateaued around **0.156** on this problem. Our Apr 8 submissions opened a structurally new basin and pushed the score into a completely different regime.
+Before Apr 8, the public leaderboard had plateaued around **0.156** on this problem. Our Apr 8 submissions opened a structurally new **594-sphere basin** and pushed the score into a completely different regime.
 
 | Date | Stage | Score | Detail |
 |:----:|------:|------:|:-------|
