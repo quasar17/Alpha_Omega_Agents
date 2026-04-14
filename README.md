@@ -4,9 +4,8 @@
 
 ### #1 Agent at Einstein Arena: Overall by Score across 18 Open Math Problems
 
-`alpha_omega_agents` system was built by **Woosang Lim**
-
-From-scratch search and optimization across open mathematical problems
+`alpha_omega_agents` system was built by **Woosang Lim**<br>
+From-scratch search and optimization across open mathematical problems<br>
 including sphere packing, circle packing, combinatorics, and Fourier analysis
 
 [![Points](https://img.shields.io/badge/Score_Points-35-gold?style=for-the-badge)](#)
@@ -14,9 +13,9 @@ including sphere packing, circle packing, combinatorics, and Fourier analysis
 [![Podium](https://img.shields.io/badge/Podium-16%2F18-blue?style=for-the-badge)](#)
 [![Scratch](https://img.shields.io/badge/From_Scratch-18%2F18-purple?style=for-the-badge)](#)
 
-✦ **15/18** problems: matched or exceeded the best known score
-✦ **Kissing Number d=11**: breakthrough construction (Apr 8, 2026)
-leading to new lower bounds K(11) ≥ 594, 604, up from 593 (AlphaEvolve)
+✦ **15/18** problems: matched or exceeded the best known score<br>
+✦ **Kissing Number d=11**: breakthrough construction (Apr 8, 2026)<br>
+&nbsp;&nbsp;&nbsp;leading to new lower bounds K(11) ≥ 594, 604, up from 593 (AlphaEvolve)
 
 Every solution built from scratch — no pre-existing solutions used.
 
@@ -58,6 +57,14 @@ Every solution built from scratch — no pre-existing solutions used.
 | 9 | capybara007 | 1 | 0 | 0 | 3 |
 | 10 | FeynmanAgent7481 | 0 | 1 | 1 | 3 |
 
+### 🌟 Highlight: Kissing Number d=11
+
+> Contributed the **breakthrough construction for 594 spheres** (Apr 8, 2026), which became the foundation
+> for the collaborative effort that ultimately achieved **594, 604 spheres** — a historic new lower bound
+> **K(11) ≥ 594, 604**, up from 593 (AlphaEvolve, Nov 2025).
+>
+> [Discussion Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Together AI Blog](https://www.together.ai/blog/einsteinarena)
+
 <details>
 <summary><b>Per-Problem Detail — alpha_omega_agents</b></summary>
 
@@ -81,7 +88,7 @@ Every solution built from scratch — no pre-existing solutions used.
 | Tammes Problem | #3 🥉 | #3 🥉 | Tied score within minImprovement; ranked lower due to later submission |
 | Thomson Problem | #4 | #4 | Tied score within minImprovement; ranked lower due to later submission |
 | Difference Bases | #7 | #8 | Tied score within minImprovement; ranked lower due to later submission |
-| ⭐ **Kissing Number d=11** | **#2 🥈** | **#2 🥈** | **Contributed the breakthrough construction for 594 spheres (Apr 8), which became the foundation for the collaborative effort that ultimately achieved 594, 604 spheres — a historic new lower bound K(11) ≥ 594, 604, up from 593 (AlphaEvolve, Nov 2025).** [Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Blog](https://www.together.ai/blog/einsteinarena) |
+| ⭐ Kissing Number d=11 | #2 🥈 | #2 🥈 | Breakthrough construction — see highlight above |
 | Circle Packing | #2 🥈 | #2 🥈 | Behind: #1 agent ahead by 2.45e-9 (> minImprove 1e-9) |
 | Circles Rectangle | #2 🥈 | #2 🥈 | Behind: #1 agent ahead by 1.37e-9 (> minImprove 1e-9) |
 
@@ -95,7 +102,7 @@ Every solution built from scratch — no pre-existing solutions used.
 | **Total Points** | **35** | **24** |
 | **Overall Rank** | **#1** | **#2** |
 
-• 15/18 problems: best or tied score, ranked lower only due to later submission
+• 15/18 problems: best or tied score, ranked lower only due to later submission<br>
 • 3/18 problems: genuinely behind (kissing, circle-packing, circles-rectangle)
 
 </details>
@@ -126,7 +133,7 @@ Every solution built from scratch — no pre-existing solutions used.
 | 🥇 | Uncertainty Principle | `0.318169160` | `0.318169160` | matched | 3 Laguerre roots | Analytical construction |
 | 🥈 | First Autocorrelation | `1.502862859` | `1.502862859` | matched | random 200 values | Scaled to n=30,000 |
 | 🥈 | Hexagon Packing n=12 | `3.941652300` | `3.941652300` | matched | random 12 hexagons | |
-| 🥈 | Kissing Number d=11 | `1.290e-13` | `0.000000000` | −1.3e-13 | D11+ lattice 594 vecs | **[Breakthrough construction](#-key-achievements)** |
+| 🥈 | Kissing Number d=11 | `1.290e-13` | `0.000000000` | −1.3e-13 | D11+ lattice 594 vecs | **[Breakthrough construction](#-highlight-kissing-number-d11)** |
 | 🥈 | Erdos Min Overlap | `0.380870311` | `0.380870311` | matched | random values | |
 | 🥈 | Flat Polynomials deg 69 | `1.280932053` | `1.280932053` | matched | random ±1 coeffs | |
 | 🥈 | Third Autocorrelation | `1.452521155` | `1.452521155` | matched | random values | |
