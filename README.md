@@ -103,6 +103,7 @@ Every solution built **from scratch** — no pre-existing solutions used.
 <sub>V1 = Rank by score via official API · V2 = Web display rank with time penalty within minImprovement</sub>
 
 • **16/18** podium finishes (#1, #2, or #3)
+
 • **15/18** problems: best or tied score, ranked lower only due to later submission
 
 
