@@ -92,13 +92,15 @@ Every solution built **from scratch** — no pre-existing solutions used.
 
 **Medal Summary:**
 
-| | V1 (Rank Score via Official API) | V2 (Web, Time Penalty within minImprovement) |
+| | V1 (API Score) | V2 (Web) |
 |:--|:-:|:-:|
 | 🥇 Gold (×3) | 5 | 0 |
 | 🥈 Silver (×2) | 9 | 10 |
 | 🥉 Bronze (×1) | 2 | 4 |
 | **Total Points** | **35** | **24** |
 | **Overall Rank** | **#1** | **#2** |
+
+<sub>V1 = Rank by score via official API · V2 = Web display rank with time penalty within minImprovement</sub>
 
 • **16/18** podium finishes (#1, #2, or #3)
 • **15/18** problems: best or tied score, ranked lower only due to later submission
