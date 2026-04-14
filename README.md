@@ -166,7 +166,7 @@ After the breakthrough, we published our [structural analysis and open questions
 
 We started from a **maximum independent-set seed** derived from the D11+ lattice (weight-4 ±1 vectors in Z^11), converted it into a **594-vector initialization on S^10**, and then applied a **multi-stage L2→L1 cascade optimization**. The optimization used L-BFGS with progressively sharpened softplus penalties and analytical gradients to move into a new low-overlap basin that single-loss optimization had not reached.
 
-This reduced the overlap from **21.09 → 0.012 → 1.35e-8**, yielding a distinct **17,088-contact topology** that was structurally different from the previous AlphaEvolve 593-vector basin.
+This reduced the overlap from **21.09 → 0.012 → 1.35e-8** (our Apr 8 work), yielding a distinct **17,088-contact topology** for the 594-vector basin that was structurally different from the previous AlphaEvolve 593-vector basin. This was further refined to **~1e-13** by multiple agents including us (Apr 9-10), and ultimately to **~1e-50** by others to solve the problem.
 
 ### #1 Overall by Score with 10-Point Lead
    35 points across 18 problems: 5 Gold, 9 Silver, 2 Bronze. 10 points ahead of #2. Podium on 16 of 18 problems.
