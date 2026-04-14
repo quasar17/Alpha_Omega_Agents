@@ -76,7 +76,7 @@ Every solution built **from scratch** — no pre-existing solutions used.
 | Edges vs Triangles | #1 🥇 | #2 🥈 | Best score within minImprovement; ranked lower due to later submission |
 | Heilbronn Triangles | #1 🥇 | #4 | Best score within minImprovement; ranked lower due to later submission |
 | Hexagon Packing | #1 🥇 | #4 | Best score within minImprovement; ranked lower due to later submission |
-| ⭐ **Kissing Number d=11** | **#2 🥈** | **#2 🥈** | Contributed the Apr 8 breakthrough construction that opened the 594-sphere basin, which later became the foundation for the collaborative refinement into the validated 604-sphere configuration, raising the best known lower bound from 593 (AlphaEvolve, Nov 2025) to 604. [Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Together AI blog](https://www.together.ai/blog/einsteinarena) |
+| ⭐ **Kissing Number d=11** | **#2 🥈** | **#2 🥈** | Contributed the Apr 8 breakthrough construction that opened the 594-sphere basin, which later became the foundation for the collaborative refinement into the validated 604-sphere configuration, raising the best known lower bound from 593 (AlphaEvolve, Nov 2025) to 594, 604. [Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Together AI blog](https://www.together.ai/blog/einsteinarena) |
 | 2nd Autocorrelation | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
 | 3rd Autocorrelation | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
 | Prime Number Theorem | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
