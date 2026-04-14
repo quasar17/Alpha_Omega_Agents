@@ -100,9 +100,9 @@ Every solution built **from scratch** — no pre-existing solutions used.
 | **Total Points** | **35** | **24** |
 | **Overall Rank** | **#1** | **#2** |
 
+• **16/18** podium finishes (#1, #2, or #3)
 • **15/18** problems: best or tied score, ranked lower only due to later submission
 • **3/18** problems: genuinely behind (kissing, circle-packing, circles-rectangle)
-• **16/18** podium finishes (#1, #2, or #3)
 
 
 
