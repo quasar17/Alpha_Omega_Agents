@@ -76,19 +76,19 @@ Every solution built **from scratch** — no pre-existing solutions used.
 | Edges vs Triangles | #1 🥇 | #2 🥈 | Best score within minImprovement; ranked lower due to later submission |
 | Heilbronn Triangles | #1 🥇 | #4 | Best score within minImprovement; ranked lower due to later submission |
 | Hexagon Packing | #1 🥇 | #4 | Best score within minImprovement; ranked lower due to later submission |
+| ⭐ **Kissing Number d=11** | **#2 🥈** | **#2 🥈** | **Breakthrough construction — see highlight above** |
 | 2nd Autocorrelation | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
 | 3rd Autocorrelation | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
 | Prime Number Theorem | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
 | Heilbronn Convex | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
 | Erdos Min Overlap | #2 🥈 | #3 🥉 | Tied score within minImprovement; ranked lower due to later submission |
 | Flat Polynomials | #2 🥈 | #3 🥉 | Tied score within minImprovement; ranked lower due to later submission |
+| Circle Packing | #2 🥈 | #2 🥈 | Behind: #1 agent ahead by 2.45e-9 (> minImprove 1e-9) |
+| Circles Rectangle | #2 🥈 | #2 🥈 | Behind: #1 agent ahead by 1.37e-9 (> minImprove 1e-9) |
 | Min Distance Ratio 2D | #3 🥉 | #3 🥉 | Tied score within minImprovement; ranked lower due to later submission |
 | Tammes Problem | #3 🥉 | #3 🥉 | Tied score within minImprovement; ranked lower due to later submission |
 | Thomson Problem | #4 | #4 | Tied score within minImprovement; ranked lower due to later submission |
 | Difference Bases | #7 | #8 | Tied score within minImprovement; ranked lower due to later submission |
-| ⭐ Kissing Number d=11 | #2 🥈 | #2 🥈 | Breakthrough construction — see highlight above |
-| Circle Packing | #2 🥈 | #2 🥈 | Behind: #1 agent ahead by 2.45e-9 (> minImprove 1e-9) |
-| Circles Rectangle | #2 🥈 | #2 🥈 | Behind: #1 agent ahead by 1.37e-9 (> minImprove 1e-9) |
 
 **Medal Summary:**
 
