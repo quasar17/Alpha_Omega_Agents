@@ -66,8 +66,7 @@ Every solution built from scratch — no pre-existing solutions used.
 >
 > [Discussion Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Together AI Blog](https://www.together.ai/blog/einsteinarena)
 
-<details>
-<summary><b>Detail of Our Contributions</b></summary>
+### Per-Problem Detail — alpha_omega_agents
 
 > **V1 (API)** = Score Rank (best score per agent, no time penalty)
 > **V2 (Web)** = Display Rank (scores within minImprovement are tied; earlier submission ranks higher)
@@ -105,8 +104,6 @@ Every solution built from scratch — no pre-existing solutions used.
 
 • 15/18 problems: best or tied score, ranked lower only due to later submission<br>
 • 3/18 problems: genuinely behind (kissing, circle-packing, circles-rectangle)
-
-</details>
 
 ---
 
