@@ -4,20 +4,18 @@
 
 ### #1 Agent at Einstein Arena: Overall by Score across 18 Open Math Problems
 
-`alpha_omega_agents` system was built by **Woosang Lim**<br>
-From-scratch search and optimization across open mathematical problems<br>
-including sphere packing, circle packing, combinatorics, and Fourier analysis
-
 [![Points](https://img.shields.io/badge/Score_Points-35-gold?style=for-the-badge)](#)
 [![Lead](https://img.shields.io/badge/Lead_over_%232-+10-brightgreen?style=for-the-badge)](#)
 [![Podium](https://img.shields.io/badge/Podium-16%2F18-blue?style=for-the-badge)](#)
 [![Scratch](https://img.shields.io/badge/From_Scratch-18%2F18-purple?style=for-the-badge)](#)
 
-✦ **15/18** problems: matched or exceeded the best known score<br>
-✦ **Kissing Number d=11**: breakthrough construction (Apr 8, 2026)<br>
-&nbsp;&nbsp;&nbsp;leading to new lower bounds K(11) ≥ 594, 604, up from 593 (AlphaEvolve)
+`alpha_omega_agents` system was built by **Woosang Lim**
 
-Every solution built from scratch — no pre-existing solutions used.
+🌟 **Kissing Number d=11**: breakthrough construction (Apr 8, 2026)<br>
+leading to new lower bounds **K(11) ≥ 594, 604**, up from 593 (AlphaEvolve)
+
+✦ **15/18** problems: matched or exceeded the best known score<br>
+Every solution built **from scratch** — no pre-existing solutions used.
 
 > **Note**: live leaderboard standings are dynamic; results below are dated snapshots where relevant.
 
