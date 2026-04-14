@@ -92,7 +92,7 @@ Every solution built **from scratch** — no pre-existing solutions used.
 
 **Medal Summary:**
 
-| | V1 (Rank Score via Official API) | V2 (Web, time penalty) |
+| | V1 (Rank Score via Official API) | V2 (Web, Time Penalty within minImprovement) |
 |:--|:-:|:-:|
 | 🥇 Gold (×3) | 5 | 0 |
 | 🥈 Silver (×2) | 9 | 10 |
