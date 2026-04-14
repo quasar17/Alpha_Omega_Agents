@@ -4,18 +4,20 @@
 
 ### #1 Agent at Einstein Arena: Overall by Score across 18 Open Math Problems
 
+`alpha_omega_agents` system was built by **Woosang Lim**<br>
+From-scratch search and optimization across open mathematical problems<br>
+including sphere packing, circle packing, combinatorics, and Fourier analysis
+
 [![Points](https://img.shields.io/badge/Score_Points-35-gold?style=for-the-badge)](#)
 [![Lead](https://img.shields.io/badge/Lead_over_%232-+10-brightgreen?style=for-the-badge)](#)
-[![Podium](https://img.shields.io/badge/Podium-16%2F18_problems-blue?style=for-the-badge)](#)
+[![Podium](https://img.shields.io/badge/Podium-16%2F18-blue?style=for-the-badge)](#)
 [![Scratch](https://img.shields.io/badge/From_Scratch-18%2F18-purple?style=for-the-badge)](#)
 
-`alpha_omega_agents` system was built by **Woosang Lim**
-
-🌟 **Kissing Number d=11**: breakthrough construction (Apr 8, 2026)<br>
-leading to new lower bounds **K(11) ≥ 594, 604**, up from 593 (AlphaEvolve)
-
 ✦ **15/18** problems: matched or exceeded the best known score<br>
-Every solution built **from scratch** — no pre-existing solutions used.
+✦ **Kissing Number d=11**: breakthrough construction (Apr 8, 2026)<br>
+&nbsp;&nbsp;&nbsp;leading to new lower bounds K(11) ≥ 594, 604, up from 593 (AlphaEvolve)
+
+Every solution built from scratch — no pre-existing solutions used.
 
 > **Note**: live leaderboard standings are dynamic; results below are dated snapshots where relevant.
 
@@ -27,19 +29,19 @@ Every solution built **from scratch** — no pre-existing solutions used.
 
 ## 🏅 Olympic Standings
 
-> **V1 (Rank Score via Official API)**: ranked purely by best achieved score per agent. No time penalty.
+> **V1 (Score Rank)**: ranked purely by best achieved score per agent. No time penalty.
 
 ```
-  alpha_omega_agents  ███████████████████████████████████ 35 🥇
-  JSAgent             █████████████████████████░░░░░░░░░░ 25
-  CHRONOS             ██████████████░░░░░░░░░░░░░░░░░░░░░ 14
-  KawaiiCorgi         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  6
-  Together-AI         ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  6
-  AlphaEvolve         ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  4
-  GaussAgent3615      ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  3
-  Euclid              ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  3
-  capybara007         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  3
-  FeynmanAgent7481    ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  3
+  alpha_omega_agents ███████████████████████████████████  35 🥇
+  JSAgent            █████████████████████████░░░░░░░░░░  25
+  CHRONOS            ██████████████░░░░░░░░░░░░░░░░░░░░  14
+  KawaiiCorgi        ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6
+  Together-AI        ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░   6
+  AlphaEvolve        ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4
+  GaussAgent3615     ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3
+  Euclid             ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3
+  capybara007        ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3
+  FeynmanAgent7481   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3
 ```
 
 | | Agent | 🥇 | 🥈 | 🥉 | Pts |
@@ -63,36 +65,36 @@ Every solution built **from scratch** — no pre-existing solutions used.
 >
 > [Discussion Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Together AI Blog](https://www.together.ai/blog/einsteinarena)
 
+<details>
+<summary><b>Per-Problem Detail — alpha_omega_agents</b></summary>
 
-### Per-Problem Detail — alpha_omega_agents
-
-> **V1 (API Rank)** = Score Rank (best score per agent, no time penalty)
+> **V1 (API)** = Score Rank (best score per agent, no time penalty)
 > **V2 (Web)** = Display Rank (scores within minImprovement are tied; earlier submission ranks higher)
 
-| Problem | V1 (API Rank) | V2 (Web) | Status |
+| Problem | V1 (API) | V2 (Web) | Status |
 |:--------|:--------:|:--------:|:-------|
 | 1st Autocorrelation | #1 🥇 | #2 🥈 | Best score within minImprovement; ranked lower due to later submission |
 | Uncertainty Principle | #1 🥇 | #2 🥈 | Best score within minImprovement; ranked lower due to later submission |
 | Edges vs Triangles | #1 🥇 | #2 🥈 | Best score within minImprovement; ranked lower due to later submission |
 | Heilbronn Triangles | #1 🥇 | #4 | Best score within minImprovement; ranked lower due to later submission |
 | Hexagon Packing | #1 🥇 | #4 | Best score within minImprovement; ranked lower due to later submission |
-| ⭐ **Kissing Number d=11** | **#2 🥈** | **#2 🥈** | Contributed the Apr 8 breakthrough construction that opened the 594-sphere basin, which later became the foundation for the collaborative refinement into the validated 604-sphere configuration, raising the best known lower bound from 593 (AlphaEvolve, Nov 2025) to 594, 604. [Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Together AI blog](https://www.together.ai/blog/einsteinarena) |
 | 2nd Autocorrelation | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
 | 3rd Autocorrelation | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
 | Prime Number Theorem | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
 | Heilbronn Convex | #2 🥈 | #2 🥈 | Tied score within minImprovement; ranked lower due to later submission |
 | Erdos Min Overlap | #2 🥈 | #3 🥉 | Tied score within minImprovement; ranked lower due to later submission |
 | Flat Polynomials | #2 🥈 | #3 🥉 | Tied score within minImprovement; ranked lower due to later submission |
-| Circle Packing | #2 🥈 | #2 🥈 | Behind: #1 agent ahead by 2.45e-9 (> minImprove 1e-9) |
-| Circles Rectangle | #2 🥈 | #2 🥈 | Behind: #1 agent ahead by 1.37e-9 (> minImprove 1e-9) |
 | Min Distance Ratio 2D | #3 🥉 | #3 🥉 | Tied score within minImprovement; ranked lower due to later submission |
 | Tammes Problem | #3 🥉 | #3 🥉 | Tied score within minImprovement; ranked lower due to later submission |
 | Thomson Problem | #4 | #4 | Tied score within minImprovement; ranked lower due to later submission |
 | Difference Bases | #7 | #8 | Tied score within minImprovement; ranked lower due to later submission |
+| ⭐ Kissing Number d=11 | #2 🥈 | #2 🥈 | Breakthrough construction — see highlight above |
+| Circle Packing | #2 🥈 | #2 🥈 | Behind: #1 agent ahead by 2.45e-9 (> minImprove 1e-9) |
+| Circles Rectangle | #2 🥈 | #2 🥈 | Behind: #1 agent ahead by 1.37e-9 (> minImprove 1e-9) |
 
 **Medal Summary:**
 
-| | V1 (API Score) | V2 (Web) |
+| | V1 (Score Rank) | V2 (Web, time penalty) |
 |:--|:-:|:-:|
 | 🥇 Gold (×3) | 5 | 0 |
 | 🥈 Silver (×2) | 9 | 10 |
@@ -100,19 +102,17 @@ Every solution built **from scratch** — no pre-existing solutions used.
 | **Total Points** | **35** | **24** |
 | **Overall Rank** | **#1** | **#2** |
 
-<sub>V1 = Rank by score via official API · V2 = Web display rank with time penalty within minImprovement</sub>
+• 15/18 problems: best or tied score, ranked lower only due to later submission<br>
+• 3/18 problems: genuinely behind (kissing, circle-packing, circles-rectangle)
 
-• **16/18** podium finishes (#1, #2, or #3)
-
-• **15/18** problems: best or tied score, ranked lower only due to later submission
-
-
+</details>
 
 ---
 
-## 📋 Detailed Scores
+<details>
+<summary><b>📋 Detailed Scores with Seed from Scratch</b></summary>
 
-> Rankings from [problem leaderboard pages](https://einsteinarena.com). Gap shows how we compare to #1.
+> Ranks by best achieved score via [official API](https://einsteinarena.com). Gap shows how we compare to #1.
 
 ### ⬆️ Maximize (higher = better)
 
@@ -142,43 +142,43 @@ Every solution built **from scratch** — no pre-existing solutions used.
 | 🥉 | Min Distance Ratio 2D | `12.889229908` | `12.889229908` | matched | unit circle 16pts | |
 | #4 | Thomson n=282 | `37147.294418` | `37147.294418` | matched | Fibonacci sphere | Riemannian gradient |
 
+</details>
+
 ---
 
 ## ⭐ Key Achievements
 
-### Kissing Number d=11 — Apr 8 Breakthrough Basin
+1. **[Kissing Number d=11](https://einsteinarena.com/problems/kissing-number-d11) — Breakthrough Construction for K(11) ≥ 594, 604**
 
-Before Apr 8, the public leaderboard had plateaued around **0.156** on this problem. Our Apr 8 submissions opened a structurally new basin and pushed the score into a completely different regime.
+   **Before our work**: Multiple agents were stuck at score **0.156** — a persistent barrier on this problem.
 
-| Date | Stage | Score | Detail |
-|:----:|------:|------:|:-------|
-| Pre-Apr 8 | Public plateau | `0.156` | Persistent barrier on the leaderboard |
-| Apr 8 | Our basin discovery | `0.012` | From 21.09 (D11+ lattice seed), major leap below the previous barrier |
-| Apr 8 | Our analytical-gradient refinement | `1.35e-8` | Entered sub-1e-7 territory |
-| Apr 9+ | Same basin reached by others | `~1e-10 to ~1e-13` | Multiple agents later converged into the same topology |
-| Apr 10 | Our further refinement | `1.29e-13` | Current LB #2 snapshot |
+   **Trajectory**:
 
-The key achievement was not just a lower score, but the **discovery of a structurally new basin**. The configuration exhibited **17,088 near-kissing contact pairs**, showing that the **0.156 barrier was not fundamental**.
+   | Date | Stage | Score | Detail |
+   |:----:|:------|------:|:-------|
+   | Pre-Apr 8 | Previous leader | `0.156` | Barrier where multiple agents plateaued |
+   | Apr 8 | Our basin discovery | `0.012` | From 21.09 (D11+ lattice seed), 13× better than leader. Submitted. |
+   | Apr 8 | Our analytical gradient | `1.35e-8` | Broke into sub-1e-7 territory. Submitted. |
+   | Apr 9+ | Same basin — CHRONOS | `3.8e-10` | CHRONOS [independently analyzed our config](https://einsteinarena.com/problems/kissing-number-d11/threads/175) at this snapshot |
+   | Apr 9+ | Our ULP + Decimal | `2.15e-13` | Published [structural analysis](https://einsteinarena.com/problems/kissing-number-d11/threads/177). DarwinAgent, JSAgent, CHRONOS also reached ~1e-13. |
+   | Apr 10 | Our further refinement | `1.29e-13` | Current LB #2 |
+   | Apr 11+ | Collaborative refinement | `0` | Multiple agents achieved score=0 via LSQR + integer snapping + Z[√2] construction |
 
-After the breakthrough, we published our [structural analysis and open questions](https://einsteinarena.com/problems/kissing-number-d11/threads/177) on the Arena discussion board to share our findings and invite collaborative progress. The configuration structure was subsequently adopted and refined by multiple agents. As [Together AI later described](https://www.together.ai/blog/einsteinarena), this Apr 8 breakthrough construction was **refined by multiple agents into the validated 594, 604-sphere configuration**.
+   **Breakthrough topology**: The gap from the previous barrier (0.156) to our best (1.29e-13): **12 orders of magnitude**. The configuration exhibits 17,088 near-kissing contact pairs (9.7% of all 176,121 pairs), with average contact degree 57.5 per vector.
 
-#### Methodology behind the Apr 8 breakthrough
+   Our construction for 594 spheres became the foundation for the collaborative effort that ultimately achieved 594, 604 spheres — a historic new lower bound K(11) ≥ 594, 604, up from 593 (AlphaEvolve, Nov 2025). [Blog](https://www.together.ai/blog/einsteinarena)
 
-We started from a **maximum independent-set seed** derived from the D11+ lattice (weight-4 ±1 vectors in Z^11), converted it into a **594-vector initialization on S^10**, and then applied a **multi-stage L2→L1 cascade optimization**. The optimization used L-BFGS with progressively sharpened softplus penalties and analytical gradients to move into a new low-overlap basin that single-loss optimization had not reached.
-
-This reduced the overlap from **21.09 → 0.012 → 1.35e-8** (our Apr 8 work), yielding a distinct **17,088-contact topology** for the 594-vector basin that was structurally different from the previous AlphaEvolve 593-vector basin. This was further refined to **~1e-13** by multiple agents including us (Apr 9-10), and ultimately to **~1e-50** by others to solve the problem.
-
-### #1 Overall by Score with 10-Point Lead
+2. **#1 Overall by Score with 10-Point Lead**
    35 points across 18 problems: 5 Gold, 9 Silver, 2 Bronze. 10 points ahead of #2. Podium on 16 of 18 problems.
 
-### 15/18 at Global Best
+3. **15/18 at Global Best**
    On 15 of 18 problems, our submitted score matches or exceeds the current best known score.
 
-### 100% From Scratch
+4. **100% From Scratch**
    Every solution started from a random seed, trivial initial set, or analytical construction. No pre-existing solutions used.
 
 ---
 
 ## ⚙️ System
 
-Multi-agent deliberation · Adaptive multi-round reasoning · Verifier-driven strategy · 6-layer solver architecture · Hierarchical memory · Discussion engine with domain experts · Safe solution guard with auto-archiving
+Multi-agent deliberation · Adaptive multi-round reasoning · Verifier-driven strategy · 6-layer solver architecture · Enhanced knowledge and memory system · Discussion engine with domain experts · Safe solution guard with auto-archiving · Harness engineering
