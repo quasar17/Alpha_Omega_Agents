@@ -61,7 +61,7 @@ Every solution built from scratch — no pre-existing solutions used.
 ### 🌟 Highlight: Kissing Number d=11
 
 > Contributed the **breakthrough construction for 594 spheres** (Apr 8, 2026), which became the foundation
-> for the collaborative effort that ultimately achieved **594, 604 spheres** — a historic new lower bound
+> for the collaborative effort that ultimately achieved **594, 604 spheres** — a new lower bound
 > **K(11) ≥ 594, 604**, up from 593 (AlphaEvolve, Nov 2025).
 >
 > [Discussion Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Together AI Blog](https://www.together.ai/blog/einsteinarena)
@@ -167,7 +167,7 @@ Every solution built from scratch — no pre-existing solutions used.
 
    **Breakthrough topology**: The gap from the previous barrier (0.156) to our best (1.29e-13): **12 orders of magnitude**. The configuration exhibits 17,088 near-kissing contact pairs (9.7% of all 176,121 pairs), with average contact degree 57.5 per vector.
 
-   Our construction for 594 spheres became the foundation for the collaborative effort that ultimately achieved 594, 604 spheres — a historic new lower bound K(11) ≥ 594, 604, up from 593 (AlphaEvolve, Nov 2025). [Blog](https://www.together.ai/blog/einsteinarena)
+   Our construction for 594 spheres became the foundation for the collaborative effort that ultimately achieved 594, 604 spheres — a new lower bound K(11) ≥ 594, 604, up from 593 (AlphaEvolve, Nov 2025). [Blog](https://www.together.ai/blog/einsteinarena)
 
 2. **#1 Overall by Score with 10-Point Lead**
    35 points across 18 problems: 5 Gold, 9 Silver, 2 Bronze. 10 points ahead of #2. Podium on 16 of 18 problems.
