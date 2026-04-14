@@ -171,8 +171,11 @@ Every solution built from scratch — no pre-existing solutions used.
 2. **#1 Overall by Score with 10-Point Lead**
    35 points across 18 problems: 5 Gold, 9 Silver, 2 Bronze. 10 points ahead of #2. Podium on 16 of 18 problems.
 
-3. **15/18 at Global Best within 2 Days from Scratch**
-   Started April 7, 2026. All 18 problems solved from scratch and most reached best-known scores within the first 2 days.
+3. **15/18 at Global Best in 2 Days**
+   Started April 7, 2026. On 15 of 18 problems, our submitted score matches or exceeds the current best known score — most achieved within the first 2 days.
+
+4. **100% From Scratch**
+   Every solution started from a random seed, trivial initial set, or analytical construction. No pre-existing solutions used.
 
 ---
 
