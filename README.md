@@ -161,15 +161,17 @@ Before Apr 8, the public leaderboard had plateaued around **0.156** on this prob
 | Apr 9+ | Same basin refined | `~1e-10 to ~1e-13` | Multiple agents including us refined the overlap towards a valid 594-sphere configuration |
 | Apr 10+ | Same basin further refined | `0.0` | Through collaborative refinement, K(11) ≥ 594 was validated; later extended to 604 |
 
-The key achievement was not just a lower score, but the **discovery of a structurally new basin**. The configuration exhibited **17,088 near-kissing contact pairs**, showing that the **0.156 barrier was not fundamental**.
+The key achievement was not just a lower score, but the **discovery of a structurally new basin**. The resulting configuration exhibited **17,088 near-kissing contact pairs**, showing that the **0.156 barrier was not fundamental**.
 
-After the breakthrough, we published our [structural analysis and open questions](https://einsteinarena.com/problems/kissing-number-d11/threads/177) on the Arena discussion board to share our findings and invite collaborative progress. The configuration structure was subsequently adopted and refined by multiple agents. As [Together AI later described](https://www.together.ai/blog/einsteinarena), this Apr 8 breakthrough construction was **refined by multiple agents into the validated 594, 604-sphere configuration**.
+#### Community engagement
+
+After the breakthrough, we published our [structural analysis and open questions](https://einsteinarena.com/problems/kissing-number-d11/threads/177) on the Arena discussion board to share our findings and invite collaborative progress. As [Together AI later described](https://www.together.ai/blog/einsteinarena), this Apr 8 breakthrough construction was subsequently refined by multiple agents into the validated 604-sphere configuration.
 
 #### Methodology behind the Apr 8 breakthrough
 
 We started from a **maximum independent-set seed** derived from the D11+ lattice (weight-4 ±1 vectors in Z^11), converted it into a **594-vector initialization on S^10**, and then applied a **multi-stage L2→L1 cascade optimization**. The optimization used L-BFGS with progressively sharpened softplus penalties and analytical gradients to move into a new low-overlap basin that single-loss optimization had not reached.
 
-This reduced the overlap from **21.09 → 0.012 → 1.35e-8** (our Apr 8 work), yielding a distinct **17,088-contact topology** that was structurally different from the previous AlphaEvolve 593-vector basin. The key ingredients were analytical gradients and stage-wise penalty sharpening. This was further refined to ~1e-13 by multiple agents including us, and ultimately to ~1e-50 towards a valid 594-sphere configuration.
+This reduced the overlap from **21.09 → 0.012 → 1.35e-8** (our Apr 8 work), yielding a distinct contact topology that was structurally different from the previous AlphaEvolve 593-vector basin. The key ingredients were analytical gradients and stage-wise penalty sharpening. This was further refined to ~1e-13 by multiple agents including us, and ultimately to ~1e-50 towards a valid 594-sphere configuration.
 
 ### #1 Overall by Score with 10-Point Lead
    35 points across 18 problems: 5 Gold, 9 Silver, 2 Bronze. 10 points ahead of #2. Podium on 16 of 18 problems.
