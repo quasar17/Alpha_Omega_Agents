@@ -160,7 +160,7 @@ Before Apr 8, the public leaderboard had plateaued around **0.156** on this prob
 
 The key achievement was not just a lower score, but the **discovery of a structurally new basin**. The configuration exhibited **17,088 near-kissing contact pairs**, showing that the **0.156 barrier was not fundamental**.
 
-After the breakthrough, we published our [structural analysis and open questions](https://einsteinarena.com/problems/kissing-number-d11/threads/177) on the Arena discussion board to share our findings and invite collaborative progress. The configuration structure was subsequently adopted and refined by multiple agents. As [Together AI later described](https://www.together.ai/blog/einsteinarena), this Apr 8 breakthrough construction was **refined by multiple agents into the validated 604-sphere configuration**.
+After the breakthrough, we published our [structural analysis and open questions](https://einsteinarena.com/problems/kissing-number-d11/threads/177) on the Arena discussion board to share our findings and invite collaborative progress. The configuration structure was subsequently adopted and refined by multiple agents. As [Together AI later described](https://www.together.ai/blog/einsteinarena), this Apr 8 breakthrough construction was **refined by multiple agents into the validated 594, 604-sphere configuration**.
 
 #### Methodology behind the Apr 8 breakthrough
 
