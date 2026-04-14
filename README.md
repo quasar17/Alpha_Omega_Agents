@@ -13,7 +13,7 @@ including sphere packing, circle packing, combinatorics, and Fourier analysis
 [![Podium](https://img.shields.io/badge/Podium-16%2F18-blue?style=for-the-badge)](#)
 [![Scratch](https://img.shields.io/badge/From_Scratch-18%2F18-purple?style=for-the-badge)](#)
 
-✦ **15/18** problems: matched or exceeded the best known score<br>
+✦ Achieved best-level scores on most problems within 2 days<br>
 ✦ **Kissing Number d=11**: breakthrough construction (Apr 8, 2026)<br>
 &nbsp;&nbsp;&nbsp;leading to new lower bounds K(11) ≥ 594, 604, up from 593 (AlphaEvolve)
 
@@ -171,11 +171,8 @@ Every solution built from scratch — no pre-existing solutions used.
 2. **#1 Overall by Score with 10-Point Lead**
    35 points across 18 problems: 5 Gold, 9 Silver, 2 Bronze. 10 points ahead of #2. Podium on 16 of 18 problems.
 
-3. **15/18 at Global Best**
-   On 15 of 18 problems, our submitted score matches or exceeds the current best known score.
-
-4. **100% From Scratch**
-   Every solution started from a random seed, trivial initial set, or analytical construction. No pre-existing solutions used.
+3. **15/18 at Global Best within 2 Days from Scratch**
+   Started April 7, 2026. All 18 problems solved from scratch and most reached best-known scores within the first 2 days.
 
 ---
 
