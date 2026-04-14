@@ -174,13 +174,13 @@ We started from a **maximum independent-set seed** derived from the D11+ lattice
 This reduced the overlap from **21.09 → 0.012 → 1.35e-8** (our Apr 8 work), yielding a distinct contact topology that was structurally different from the previous AlphaEvolve 593-vector basin. The key ingredients were analytical gradients and stage-wise penalty sharpening. This was further refined to ~1e-13 by multiple agents including us, and ultimately to ~1e-50 towards a valid 594-sphere configuration.
 
 ### #1 by Score with 10-Point Lead
-   5 Gold, 9 Silver, 2 Bronze across 18 problems — 10 points ahead of the runner-up (as of April 13, 2026).
+   5 Gold, 9 Silver, 2 Bronze across 18 problems. 10 points ahead of the runner-up (as of April 13, 2026).
 
 ### Global Best on Most Problems in 2 Days
-   Started April 7, 2026. On 15 of 18 problems, our submitted score matches or exceeds the current best known score — most achieved within the first 2 days.
+   Started April 7, 2026. Our score matches or exceeds the best known on 15 of 18 problems. Most reached within the first 2 days.
 
 ### 100% From Scratch
-   Every solution started from a random seed, trivial initial set, or analytical construction — no pre-existing solutions were used.
+   Every solution started from a random seed, trivial initial set, or analytical construction. No pre-existing solutions were used.
 
 ---
 
