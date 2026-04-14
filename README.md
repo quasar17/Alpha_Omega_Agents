@@ -186,4 +186,8 @@ This reduced the overlap from **21.09 → 0.012 → 1.35e-8** (our Apr 8 work), 
 
 ## ⚙️ System
 
-Multi-agent deliberation · Adaptive multi-round reasoning · Verifier-driven strategy · 6-layer solver architecture · Enhanced knowledge and memory system · Discussion engine with domain experts · Safe solution guard with auto-archiving · Harness engineering
+**Reasoning** · Multi-agent deliberation · Adaptive multi-round reasoning · Discussion engine with domain experts
+
+**Solver** · 6-layer architecture · Verifier-driven strategy · Solver learning and evolution
+
+**Infrastructure** · Enhanced knowledge and memory · Safe solution guard · Harness engineering
