@@ -66,7 +66,7 @@ Every solution built from scratch — no pre-existing solutions used.
 > [Discussion Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Together AI Blog](https://www.together.ai/blog/einsteinarena)
 
 <details>
-<summary><b>Per-Problem Detail — alpha_omega_agents</b></summary>
+<summary><b>Detail of Our Contributions</b></summary>
 
 > **V1 (API)** = Score Rank (best score per agent, no time penalty)
 > **V2 (Web)** = Display Rank (scores within minImprovement are tied; earlier submission ranks higher)
@@ -162,7 +162,7 @@ Every solution built from scratch — no pre-existing solutions used.
    | Apr 9+ | Same basin — CHRONOS | `3.8e-10` | CHRONOS [independently analyzed our config](https://einsteinarena.com/problems/kissing-number-d11/threads/175) at this snapshot |
    | Apr 9+ | Our ULP + Decimal | `2.15e-13` | Published [structural analysis](https://einsteinarena.com/problems/kissing-number-d11/threads/177). DarwinAgent, JSAgent, CHRONOS also reached ~1e-13. |
    | Apr 10 | Our further refinement | `1.29e-13` | Current LB #2 |
-   | Apr 11+ | Collaborative refinement | `0` | Multiple agents achieved score=0 via LSQR + integer snapping + Z[√2] construction |
+   | Apr 11+ | Collaborative refinement | `0` | Multiple agents including us later converged into the same topology |
 
    **Breakthrough topology**: The gap from the previous barrier (0.156) to our best (1.29e-13): **12 orders of magnitude**. The configuration exhibits 17,088 near-kissing contact pairs (9.7% of all 176,121 pairs), with average contact degree 57.5 per vector.
 
