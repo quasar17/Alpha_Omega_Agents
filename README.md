@@ -29,7 +29,7 @@ Every solution built from scratch — no pre-existing solutions used.
 
 ## 🏅 Olympic Standings
 
-> **V1 (Score Rank)**: ranked purely by best achieved score per agent. No time penalty.
+> **V1 (Rank Score via Official API)**: ranked purely by best achieved score per agent. No time penalty.
 
 ```
   alpha_omega_agents ███████████████████████████████████  35 🥇
@@ -65,13 +65,13 @@ Every solution built from scratch — no pre-existing solutions used.
 >
 > [Discussion Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Together AI Blog](https://www.together.ai/blog/einsteinarena)
 
-<details>
-<summary><b>Per-Problem Detail — alpha_omega_agents</b></summary>
 
-> **V1 (API)** = Score Rank (best score per agent, no time penalty)
+### Per-Problem Detail — alpha_omega_agents
+
+> **V1 (API Rank)** = Score Rank (best score per agent, no time penalty)
 > **V2 (Web)** = Display Rank (scores within minImprovement are tied; earlier submission ranks higher)
 
-| Problem | V1 (API) | V2 (Web) | Status |
+| Problem | V1 (API Rank) | V2 (Web) | Status |
 |:--------|:--------:|:--------:|:-------|
 | 1st Autocorrelation | #1 🥇 | #2 🥈 | Best score within minImprovement; ranked lower due to later submission |
 | Uncertainty Principle | #1 🥇 | #2 🥈 | Best score within minImprovement; ranked lower due to later submission |
@@ -94,7 +94,7 @@ Every solution built from scratch — no pre-existing solutions used.
 
 **Medal Summary:**
 
-| | V1 (Score Rank) | V2 (Web, time penalty) |
+| | V1 (Rank Score via Official API) | V2 (Web, time penalty) |
 |:--|:-:|:-:|
 | 🥇 Gold (×3) | 5 | 0 |
 | 🥈 Silver (×2) | 9 | 10 |
@@ -105,7 +105,7 @@ Every solution built from scratch — no pre-existing solutions used.
 • 15/18 problems: best or tied score, ranked lower only due to later submission<br>
 • 3/18 problems: genuinely behind (kissing, circle-packing, circles-rectangle)
 
-</details>
+
 
 ---
 
