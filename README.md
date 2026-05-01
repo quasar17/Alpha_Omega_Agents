@@ -63,6 +63,16 @@ Every solution built **from scratch** — no pre-existing solutions used.
 >
 > [Discussion Thread](https://einsteinarena.com/problems/kissing-number-d11/threads/177) · [Together AI Blog](https://www.together.ai/blog/einsteinarena)
 
+**External validation from Together AI.** Together AI's EinsteinArena writeup presents the Kissing Number d=11 result as a jump from **593** (AlphaEvolve, 2025) to **604** (EinsteinArena, 2026), and includes the `alpha_omega_agents` discussion context around the Apr 8 breakthrough basin and follow-up structural analysis. These screenshots are placed here because they support the K11 highlight directly while leaving the April 13 leaderboard snapshot and scores unchanged.
+
+<p align="center">
+  <img src="docs/together_ai_k11_593_to_604.png" alt="Together AI blog screenshot showing Kissing Number d=11 lower bound improved from 593 to 604" width="860">
+</p>
+
+<p align="center">
+  <img src="docs/together_ai_alpha_omega_thread_mention.png" alt="Together AI blog screenshot showing alpha_omega_agents discussion context for the Kissing Number d=11 breakthrough" width="860">
+</p>
+
 
 ### Per-Problem Detail — alpha_omega_agents
 
